@@ -1,5 +1,5 @@
 // Library.java
-// OWNER: Person 3
+
 // Job: holds the array of books and the borrow/return logic.
 
 public class Library {
@@ -9,9 +9,9 @@ public class Library {
 
     // Constructor: fills the array with hardcoded sample books
     public Library() {
-        books[0] = new Book("Mastering A-Level Physics", "Various Authors", 20);
-        books[1] = new Book("Mastering A-Level Chemistry", "Various Authors", 15);
-        books[2] = new Book("Introduction to Java", "Various Authors", 8);
+        books[0] = new Book("Mastering A-Level Physics", "Walugada Ronald", 20);
+        books[1] = new Book("Mastering A-Level Chemistry", "Walugada Ronald", 15);
+        books[2] = new Book("Introduction to Java", "Mrs.Lillian Muyama", 8);
     }
 
     public void registerMember(Member member) {
