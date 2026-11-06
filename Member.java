@@ -2,14 +2,14 @@
 // NAAMALA MARY BEATRICE
 // stores the details of the person registering at the library.
 
-public class Members {
+public class Member {
 
     private String name;
     private String studentNumber;
     private String regNumber;
 
     // Constructor: sets all details once, when the member is created
-    public Members(String name, String studentNumber, String regNumber) {
+    public Member(String name, String studentNumber, String regNumber) {
         this.name = name;
         this.studentNumber = studentNumber;
         this.regNumber = regNumber;
