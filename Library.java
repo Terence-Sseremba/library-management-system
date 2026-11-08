@@ -24,8 +24,12 @@ public class Library {
     }
 
     public boolean hasMember() { return member != null; }
+    public Member getMember() { return member; }
     public int getBorrowedCount() { return member == null ? 0 : member.getBorrowedCount(); }
     public int getBookCount() { return books.length; }
+    public Book getBook(int choice) {
+        return choice >= 1 && choice <= books.length ? books[choice - 1] : null;
+    }
     public boolean hasReachedBorrowLimit() {
         return member != null && member.getBorrowedCount() >= member.getBorrowLimit();
     }
